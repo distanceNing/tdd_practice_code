@@ -79,21 +79,53 @@ CMakeFiles/tdd_app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tdd_app.dir/main.cpp.s"
 	D:\WorkApp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\share\tdd_app\main.cpp -o CMakeFiles\tdd_app.dir\main.cpp.s
 
+CMakeFiles/tdd_app.dir/soundex/soundex_test.cpp.obj: CMakeFiles/tdd_app.dir/flags.make
+CMakeFiles/tdd_app.dir/soundex/soundex_test.cpp.obj: CMakeFiles/tdd_app.dir/includes_CXX.rsp
+CMakeFiles/tdd_app.dir/soundex/soundex_test.cpp.obj: ../soundex/soundex_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\share\tdd_app\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tdd_app.dir/soundex/soundex_test.cpp.obj"
+	D:\WorkApp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tdd_app.dir\soundex\soundex_test.cpp.obj -c D:\share\tdd_app\soundex\soundex_test.cpp
+
+CMakeFiles/tdd_app.dir/soundex/soundex_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tdd_app.dir/soundex/soundex_test.cpp.i"
+	D:\WorkApp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\share\tdd_app\soundex\soundex_test.cpp > CMakeFiles\tdd_app.dir\soundex\soundex_test.cpp.i
+
+CMakeFiles/tdd_app.dir/soundex/soundex_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tdd_app.dir/soundex/soundex_test.cpp.s"
+	D:\WorkApp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\share\tdd_app\soundex\soundex_test.cpp -o CMakeFiles\tdd_app.dir\soundex\soundex_test.cpp.s
+
+CMakeFiles/tdd_app.dir/soundex/soundex.cpp.obj: CMakeFiles/tdd_app.dir/flags.make
+CMakeFiles/tdd_app.dir/soundex/soundex.cpp.obj: CMakeFiles/tdd_app.dir/includes_CXX.rsp
+CMakeFiles/tdd_app.dir/soundex/soundex.cpp.obj: ../soundex/soundex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\share\tdd_app\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tdd_app.dir/soundex/soundex.cpp.obj"
+	D:\WorkApp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tdd_app.dir\soundex\soundex.cpp.obj -c D:\share\tdd_app\soundex\soundex.cpp
+
+CMakeFiles/tdd_app.dir/soundex/soundex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tdd_app.dir/soundex/soundex.cpp.i"
+	D:\WorkApp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\share\tdd_app\soundex\soundex.cpp > CMakeFiles\tdd_app.dir\soundex\soundex.cpp.i
+
+CMakeFiles/tdd_app.dir/soundex/soundex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tdd_app.dir/soundex/soundex.cpp.s"
+	D:\WorkApp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\share\tdd_app\soundex\soundex.cpp -o CMakeFiles\tdd_app.dir\soundex\soundex.cpp.s
+
 # Object files for target tdd_app
 tdd_app_OBJECTS = \
-"CMakeFiles/tdd_app.dir/main.cpp.obj"
+"CMakeFiles/tdd_app.dir/main.cpp.obj" \
+"CMakeFiles/tdd_app.dir/soundex/soundex_test.cpp.obj" \
+"CMakeFiles/tdd_app.dir/soundex/soundex.cpp.obj"
 
 # External object files for target tdd_app
 tdd_app_EXTERNAL_OBJECTS =
 
 tdd_app.exe: CMakeFiles/tdd_app.dir/main.cpp.obj
+tdd_app.exe: CMakeFiles/tdd_app.dir/soundex/soundex_test.cpp.obj
+tdd_app.exe: CMakeFiles/tdd_app.dir/soundex/soundex.cpp.obj
 tdd_app.exe: CMakeFiles/tdd_app.dir/build.make
 tdd_app.exe: lib/libgtest_maind.a
 tdd_app.exe: lib/libgtestd.a
 tdd_app.exe: CMakeFiles/tdd_app.dir/linklibs.rsp
 tdd_app.exe: CMakeFiles/tdd_app.dir/objects1.rsp
 tdd_app.exe: CMakeFiles/tdd_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\share\tdd_app\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tdd_app.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\share\tdd_app\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable tdd_app.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\tdd_app.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=tdd_app -D TEST_EXECUTABLE=D:/share/tdd_app/cmake-build-debug/tdd_app.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=D:/share/tdd_app/cmake-build-debug -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=tdd_app_TESTS -D CTEST_FILE=D:/share/tdd_app/cmake-build-debug/tdd_app[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P "C:/Program Files/CMake/share/cmake-3.23/Modules/GoogleTestAddTests.cmake"
 

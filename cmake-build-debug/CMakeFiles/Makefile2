@@ -134,12 +134,12 @@ CMakeFiles/tdd_app.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_m
 CMakeFiles/tdd_app.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tdd_app.dir\build.make CMakeFiles/tdd_app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tdd_app.dir\build.make CMakeFiles/tdd_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\share\tdd_app\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target tdd_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\share\tdd_app\cmake-build-debug\CMakeFiles --progress-num=9,10,11,12 "Built target tdd_app"
 .PHONY : CMakeFiles/tdd_app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tdd_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\share\tdd_app\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\share\tdd_app\cmake-build-debug\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/tdd_app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\share\tdd_app\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/tdd_app.dir/rule

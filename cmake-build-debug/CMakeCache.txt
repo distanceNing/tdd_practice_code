@@ -219,13 +219,13 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=tdd_app
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=1.11.0
+CMAKE_PROJECT_VERSION:STATIC=1.10.0
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=11
+CMAKE_PROJECT_VERSION_MINOR:STATIC=10
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_PATCH:STATIC=0
@@ -609,7 +609,6 @@ _Python_EXECUTABLE:INTERNAL=C:/Users/ninggyang/AppData/Local/Programs/Python/Pyt
 //Python Properties
 _Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;7;0;64;;cp37-win_amd64;C:\Users\ninggyang\AppData\Local\Programs\Python\Python37\Lib;C:\Users\ninggyang\AppData\Local\Programs\Python\Python37\Lib;C:\Users\ninggyang\AppData\Local\Programs\Python\Python37\Lib\site-packages;C:\Users\ninggyang\AppData\Local\Programs\Python\Python37\Lib\site-packages
 _Python_INTERPRETER_SIGNATURE:INTERNAL=e7e13854d647a104b9bf20b9088e8074
-cmake_package_name:INTERNAL=GTest
 generated_dir:INTERNAL=D:/share/tdd_app/cmake-build-debug/_deps/googletest-build/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1

@@ -10,7 +10,7 @@ FetchContent_Declare(
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
-add_executable(tdd_app main.cpp)
+add_executable(tdd_app main.cpp soundex/soundex_test.cpp soundex/soundex.cpp soundex/soundex.h)
 
 target_link_libraries(
         tdd_app

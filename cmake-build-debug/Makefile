@@ -249,6 +249,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tdd_app.dir\build.make CMakeFiles/tdd_app.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+soundex/soundex.obj: soundex/soundex.cpp.obj
+.PHONY : soundex/soundex.obj
+
+# target to build an object file
+soundex/soundex.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tdd_app.dir\build.make CMakeFiles/tdd_app.dir/soundex/soundex.cpp.obj
+.PHONY : soundex/soundex.cpp.obj
+
+soundex/soundex.i: soundex/soundex.cpp.i
+.PHONY : soundex/soundex.i
+
+# target to preprocess a source file
+soundex/soundex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tdd_app.dir\build.make CMakeFiles/tdd_app.dir/soundex/soundex.cpp.i
+.PHONY : soundex/soundex.cpp.i
+
+soundex/soundex.s: soundex/soundex.cpp.s
+.PHONY : soundex/soundex.s
+
+# target to generate assembly for a file
+soundex/soundex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tdd_app.dir\build.make CMakeFiles/tdd_app.dir/soundex/soundex.cpp.s
+.PHONY : soundex/soundex.cpp.s
+
+soundex/soundex_test.obj: soundex/soundex_test.cpp.obj
+.PHONY : soundex/soundex_test.obj
+
+# target to build an object file
+soundex/soundex_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tdd_app.dir\build.make CMakeFiles/tdd_app.dir/soundex/soundex_test.cpp.obj
+.PHONY : soundex/soundex_test.cpp.obj
+
+soundex/soundex_test.i: soundex/soundex_test.cpp.i
+.PHONY : soundex/soundex_test.i
+
+# target to preprocess a source file
+soundex/soundex_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tdd_app.dir\build.make CMakeFiles/tdd_app.dir/soundex/soundex_test.cpp.i
+.PHONY : soundex/soundex_test.cpp.i
+
+soundex/soundex_test.s: soundex/soundex_test.cpp.s
+.PHONY : soundex/soundex_test.s
+
+# target to generate assembly for a file
+soundex/soundex_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tdd_app.dir\build.make CMakeFiles/tdd_app.dir/soundex/soundex_test.cpp.s
+.PHONY : soundex/soundex_test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -269,6 +317,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... soundex/soundex.obj
+	@echo ... soundex/soundex.i
+	@echo ... soundex/soundex.s
+	@echo ... soundex/soundex_test.obj
+	@echo ... soundex/soundex_test.i
+	@echo ... soundex/soundex_test.s
 .PHONY : help
 
 

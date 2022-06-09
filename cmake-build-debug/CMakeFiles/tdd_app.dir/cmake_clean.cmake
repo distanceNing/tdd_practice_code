@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tdd_app.dir/main.cpp.obj"
+  "CMakeFiles/tdd_app.dir/soundex/soundex.cpp.obj"
+  "CMakeFiles/tdd_app.dir/soundex/soundex_test.cpp.obj"
   "libtdd_app.dll.a"
   "tdd_app.exe"
   "tdd_app.exe.manifest"

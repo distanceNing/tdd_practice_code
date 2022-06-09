@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/share/tdd_app/main.cpp" "D:/share/tdd_app/cmake-build-debug/CMakeFiles/tdd_app.dir/main.cpp.obj"
+  "D:/share/tdd_app/soundex/soundex.cpp" "D:/share/tdd_app/cmake-build-debug/CMakeFiles/tdd_app.dir/soundex/soundex.cpp.obj"
+  "D:/share/tdd_app/soundex/soundex_test.cpp" "D:/share/tdd_app/cmake-build-debug/CMakeFiles/tdd_app.dir/soundex/soundex_test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

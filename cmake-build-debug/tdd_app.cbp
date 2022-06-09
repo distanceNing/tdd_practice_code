@@ -331,6 +331,15 @@
 		<Unit filename="D:/share/tdd_app/main.cpp">
 			<Option target="tdd_app"/>
 		</Unit>
+		<Unit filename="D:/share/tdd_app/soundex/soundex.cpp">
+			<Option target="tdd_app"/>
+		</Unit>
+		<Unit filename="D:/share/tdd_app/soundex/soundex.h">
+			<Option target="tdd_app"/>
+		</Unit>
+		<Unit filename="D:/share/tdd_app/soundex/soundex_test.cpp">
+			<Option target="tdd_app"/>
+		</Unit>
 		<Unit filename="D:/share/tdd_app/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
