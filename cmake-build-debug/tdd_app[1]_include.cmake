@@ -1,5 +1,0 @@
-if(EXISTS "D:/share/tdd_app/cmake-build-debug/tdd_app[1]_tests.cmake")
-  include("D:/share/tdd_app/cmake-build-debug/tdd_app[1]_tests.cmake")
-else()
-  add_test(tdd_app_NOT_BUILT tdd_app_NOT_BUILT)
-endif()

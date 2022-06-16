@@ -9,14 +9,18 @@ FetchContent_Declare(
 # For Windows: Prevent overriding the parent project's compiler/linker settings
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
+add_executable(tdd_app main.cpp soundex/soundex_test.cpp soundex/soundex.cpp soundex/soundex.h collection.cpp roman_converter.cpp roman_converter.h http.cpp)
 
-add_executable(tdd_app main.cpp soundex/soundex_test.cpp soundex/soundex.cpp soundex/soundex.h)
 
 target_link_libraries(
         tdd_app
         gtest_main
+        gmock
 )
 
-include(GoogleTest)
+include(GoogleTest GoogleMock
+        )
+
+
 gtest_discover_tests(tdd_app)
 

@@ -1,1 +1,0 @@
--isystem D:/share/tdd_app/googletest/googlemock/include -isystem D:/share/tdd_app/googletest/googlemock -isystem D:/share/tdd_app/googletest/googletest/include -isystem D:/share/tdd_app/googletest/googletest
