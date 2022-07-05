@@ -26,7 +26,7 @@ class RomanConverter {
     for (const auto &p: digit2RomanMap) {
       while (num >= p.first) {
         res.append(p.second);
-        num -= num % p.first;
+        num -= p.first;
       }
     }
     return res;

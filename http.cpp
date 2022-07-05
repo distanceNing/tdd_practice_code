@@ -4,7 +4,8 @@
 
 
 #include "gmock/gmock.h"
-class Http {
- public:
+class Http
+{
+public:
 };
 
